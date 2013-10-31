@@ -2,7 +2,7 @@
 Title: aws-dynamodb-copy
 ProjectGroup: AWS
 Repository: https://github.com/sjakthol/aws-dynamodb-copy
-Summary: |
+Description: |
   A high-throughput utility for cloning data between two DynamoDB tables.
 Tags:
   - aws
@@ -22,3 +22,5 @@ to the target and source tables.
 
 The script is able to provide a sustained rate of at least 10000 items copied
 per second (running on an m5.large instance). Higher rates have not been tested.
+
+<a target="_blank" rel="noopener" href="https://github.com/sjakthol/aws-dynamodb-copy">View in Github</a>

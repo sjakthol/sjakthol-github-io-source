@@ -1,0 +1,43 @@
+baseUrl: /
+languageCode: en-us
+theme: hello-friend
+paginate: 5
+copyright: <span>Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> and <a href="https://github.com/panr/hugo-theme-hello-friend" target="_blank" rel="noopener">Hello Friend</a> theme</a></span>
+
+params:
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName: posts
+  # "dark" or "light"
+  defaultTheme: dark
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems: 2
+
+  description: Sami Jaktholm's personal website
+  date: 2019-12-22
+
+languages:
+  en:
+    title: Sami Jaktholm
+    subtitle: ''
+    menuMore: Show more
+    writtenBy: Written by
+    readMore: Read More
+    readOtherPosts: Read other posts
+    newerPosts: Newer posts
+    olderPosts: Older posts
+    dateFormatSingle: 2006-01-02
+    dateFormatList: 2006-01-02
+
+    params:
+      logo:
+        logoText: Sami Jaktholm
+        logoHomeLink: /
+
+    menu:
+      main:
+      - identifier: projects
+        name: Projects
+        url: /projects
+      # - identifier: blog
+      #   name: Blog
+      #   url: /posts

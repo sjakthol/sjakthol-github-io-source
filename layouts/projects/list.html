@@ -1,37 +1,32 @@
 {{ define "main" }}
-<main class="section-index">
-  <h1>{{ .Title }}</h1>
-  <h4>{{ .Content }}</h4>
-  <p>
-    {{ range $i, $e := .Data.Pages.GroupByParam "ProjectGroup" }}
-      {{ if $i }}
-        <span class="text-muted">&nbsp;&bullet;&nbsp;</span>
-      {{ end }}
-        <a href="#{{.Key}}">{{ .Key }}</a>
-      {{ end }}
-    {{ range .Data.Pages.GroupByParam "ProjectGroup" }}
 
-    {{ end }}
-  </p>
-  <hr />
-  {{ range .Data.Pages.GroupByParam "ProjectGroup" }}
-  <div class="project-card-group">
-    <h2><a name="{{.Key}}"></a>{{ .Key }}</h2>
-    <div class="project-card-holder">
-    {{ range sort .Pages "Title" }}
-      <div class="project-card">
-        <h4 class="project-card-title">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            <a class="project-card-repo" target="_black" rel="noopener" href="{{ .Params.Repository }}" title="View in Github"><i class="fa fa-github"></i></a>
-        </h4>
-        <div class="project-card-summary"> {{ .Params.Summary | markdownify }}</div>
-        <div class="project-card-tags">
-          {{ range .Params.tags }} <kbd class="item-tag">{{ . }}</kbd> {{ end }}
+{{ $contentTypeName := "projects" }}
+
+<div class="archive">
+  <h1>{{ .Title }}</h1>
+  <div class="archive__group-year">
+    <h2 class="archive__group-year-header"></h2>
+    {{ range .Data.Pages.GroupByParam "ProjectGroup" }}
+    <div class="archive__group-month">
+      <h3 class="archive__group-month-header">{{ .Key }}</h3>
+      <div class="archive__group-posts">
+        {{ range where .Pages "Type" $contentTypeName }}
+        {{ if eq .Kind "page" }}
+        <div class="archive__post">
+          <h3 class="archive__post-title"><a
+              href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+          </h3>
+          <div class="archive__post-meta">
+            <span>
+              {{ .Description }}
+            </span>
+          </div>
         </div>
+        {{ end }}
+        {{ end }}
       </div>
-    {{ end }}
     </div>
+    {{ end }}
   </div>
-  {{ end }}
-</main>
-{{end}}
+</div>
+{{ end }}

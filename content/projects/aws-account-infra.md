@@ -2,7 +2,7 @@
 Title: aws-account-infra
 ProjectGroup: AWS
 Repository: https://github.com/sjakthol/aws-account-infra
-Summary: |
+Description: |
   CloudFormation templates for setting up an infrastructure for an AWS
   account. This includes configurations for CloudTrail, IAM, KMS and VPC.
 Tags:
@@ -19,4 +19,6 @@ AWS infrastructure setup that contains the following components:
   resources.
 * KMS key for encrypting sensitive data.
 * VPC with route tables that provide varying level of access to / from the
-  public internet over IPv4 and IPv6.
+  public internet.
+
+<a target="_blank" rel="noopener" href="https://github.com/sjakthol/aws-account-infra">View in Github</a>

@@ -2,7 +2,7 @@
 Title: aws-s3-basic-auth
 ProjectGroup: AWS
 Repository: https://github.com/sjakthol/aws-s3-basic-auth
-Summary: |
+Description: |
   Protect access to S3 bucket with HTTP Basic Authentication. Powered by AWS
   CloudFront and Lambda@Edge.
 Tags:
@@ -25,3 +25,5 @@ contents of S3.
 
 The entire setup can be deployed through CloudFormation to protect access
 to any existing S3 bucket.
+
+<a target="_blank" rel="noopener" href="https://github.com/sjakthol/aws-s3-basic-auth">View in Github</a>

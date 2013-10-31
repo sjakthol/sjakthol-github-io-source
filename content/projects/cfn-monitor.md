@@ -2,7 +2,7 @@
 Title: cfn-monitor
 ProjectGroup: AWS
 Repository: https://github.com/sjakthol/cfn-monitor
-Summary: |
+Description: |
   A tool for monitoring the progress of AWS CloudFormation stack events
   during the creation or update of a stack.
 Tags:
@@ -27,3 +27,5 @@ npm install -g cfn-monitor
 ## Links
 
 * Package in NPM: https://www.npmjs.com/package/cfn-monitor
+
+<a target="_blank" rel="noopener" href="https://github.com/sjakthol/cfn-monitor">View in Github</a>

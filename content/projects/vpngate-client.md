@@ -2,11 +2,8 @@
 Title: vpngate-client
 ProjectGroup: Applications
 Repository: https://github.com/sjakthol/vpngate-client
-Summary: |
-  A command line client for discovering and connecting to vpngate.net
-  OpenVPN servers. Features include filtering VPNs by countries and
-  geographic regions, built-in speed test of VPNs and iptables based
-  blocking of connections that would bypass the VPN tunnel.
+Description:  A command line client for discovering and connecting to vpngate.net
+  OpenVPN servers.
 Tags:
     - python
 Date: 2017-09-10
@@ -22,3 +19,5 @@ OpenVPN servers from the command line. It has the following features:
 
 The application is written in python can and be used from most UNIX
 systems that have Python and OpenVPN available.
+
+<a target="_blank" rel="noopener" href="https://github.com/sjakthol/vpngate-client">View in Github</a>

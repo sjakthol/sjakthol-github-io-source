@@ -2,8 +2,8 @@
 Title: digitransit-stoptimes-android
 ProjectGroup: Applications
 Repository: https://github.com/sjakthol/digitransit-stoptimes-android
-Summary: |
-  An Android application for accessing real-time departure information of
+Description: |
+  Android application for accessing real-time departure information of
   public transportation in the Helsinki metropolitan area.
 Tags:
   - android
@@ -26,4 +26,6 @@ The data is provided by [HSL](https://www.hsl.fi/en) through the
 <p align=center>
   <img src="/images/stoptimes-demo.gif" alt="Demo GIF" />
 </p>
+
+<a target="_blank" rel="noopener" href="https://github.com/sjakthol/digitransit-stoptimes-android">View in Github</a>
 

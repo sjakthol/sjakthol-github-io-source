@@ -2,7 +2,7 @@
 Title: dedup-simulator
 ProjectGroup: Other
 Repository: https://github.com/sjakthol/dedup-simulator
-Summary: |
+Description: |
   A simulator and related scripts for measuring efficiency of an
   encrypted data deduplication solution. https://eprint.iacr.org/2015/455.pdf
 Tags:
@@ -40,3 +40,5 @@ process:
   SIGSAC Conference on Computer and Communications Security.* ACM, 2015. Available
   at https://eprint.iacr.org/2015/455.pdf
 * Demo Implementation: https://git.ssg.aalto.fi/close/cloud-dedup
+
+<a target="_blank" rel="noopener" href="https://github.com/sjakthol/dedup-simulator">View in Github</a>

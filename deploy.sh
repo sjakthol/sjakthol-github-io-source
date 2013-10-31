@@ -2,6 +2,8 @@
 
 set -euo pipefail
 
+(cd public && rm -r */)
+
 hugo
 
 pushd public

@@ -2,7 +2,7 @@
 Title: cfn-execute-change-set
 ProjectGroup: AWS
 Repository: https://github.com/sjakthol/cfn-execute-change-set
-Summary: |
+Description: |
   A tool for reviewing and executing AWS CloudFormation change sets.
 Tags:
   - aws
@@ -24,3 +24,5 @@ npm install -g cfn-execute-change-set
 ## Links
 
 * Package in NPM: https://www.npmjs.com/package/cfn-execute-change-set
+
+<a target="_blank" rel="noopener" href="https://github.com/sjakthol/cfn-execute-change-set">View in Github</a>
