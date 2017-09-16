@@ -1,7 +1,6 @@
 baseURL = "https://sjakthol.github.io/"
 languageCode = "en-us"
 title = "Sami Jaktholm"
-publishDir = "docs"
 
 [params]
     author = "Sami Jaktholm"
