@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>dedup-simulator</title>
+
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0" />
+
+  
+  <link rel="stylesheet" href="/css/main.css">
+
+  <meta name="generator" content="Hugo 0.25.1" />
+</head>
+
+<body>
+  
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand visible-xs" href="#">dedup-simulator</a>
+            <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav">
+                
+                <li><a href="/">Home</a></li>
+                
+                <li><a href="/projects/">Projects</a></li>
+                
+            </ul>
+             
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="navbar-icon"><a href="mailto:sjakthol@outlook.com"><i class="fa fa-envelope-o"></i></a></li>
+                
+                <li class="navbar-icon"><a href="https://github.com/sjakthol/"><i class="fa fa-github"></i></a></li>
+                
+            </ul>
+            
+        </div>
+    </div>
+</nav>
+  
+  
+<main class="section-item">
+  <h1>dedup-simulator</h1>
+  <p>
+    <i>A simulator and related scripts for measuring efficiency of an
+encrypted data deduplication solution. <a href="https://eprint.iacr.org/2015/455.pdf">https://eprint.iacr.org/2015/455.pdf</a></i>
+  </p>
+  <hr />
+  <div class="text-justify">
+    
+
+<p>This simulator was developed to measure the efficiency of an encrypted data
+deduplication protocol for cloud storage service providers. The protocol
+was developed by the Secure Systems group at the Aalto University School of
+Science.</p>
+
+<p>This simulator consists of various components that can be used to measure the
+efficiency of the deduplication protocol. These components are:</p>
+
+<ul>
+<li>Dataset Collector - Collects file size and popularity data from UNIX
+systems.</li>
+<li>Upload Request Stream Generator - Generates a stream of upload requests
+from the collected datasets.</li>
+<li>Simulator - Reads the generated upload request stream and simulates the
+deduplication protocol.</li>
+</ul>
+
+<p>This project also contains some additional tools used during the simulation
+process:</p>
+
+<ul>
+<li>Perfect Protocol Simulator - Measures the perfect deduplication percentage
+for the generated upload request streams that provides a baseline for
+comparisons.</li>
+<li>Oversampler - A tool for generating larger datasets from a collected datasets.</li>
+</ul>
+
+<h2 id="references-and-additional-information">References and Additional Information</h2>
+
+<ul>
+<li>Liu, Jian, N. Asokan, and Benny Pinkas. &ldquo;Secure deduplication of encrypted
+data without additional independent servers.&rdquo; <em>Proceedings of the 22nd ACM
+SIGSAC Conference on Computer and Communications Security.</em> ACM, 2015. Available
+at <a href="https://eprint.iacr.org/2015/455.pdf">https://eprint.iacr.org/2015/455.pdf</a></li>
+<li>Demo Implementation: <a href="https://git.ssg.aalto.fi/close/cloud-dedup">https://git.ssg.aalto.fi/close/cloud-dedup</a></li>
+</ul>
+
+  </div>
+
+  <a class="gh-project-link" href="https://github.com/sjakthol/dedup-simulator"><i class="fa fa-github">&nbsp;</i>View in Github</a>
+
+</main>
+
+
+    <footer>
+      <p class="text-muted">Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

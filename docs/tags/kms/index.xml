@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kms on Sami Jaktholm</title>
+    <link>https://sjakthol.github.io/tags/kms/</link>
+    <description>Recent content in Kms on Sami Jaktholm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sjakthol.github.io/tags/kms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>aws-kms-crypt</title>
+      <link>https://sjakthol.github.io/projects/aws-kms-crypt/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/projects/aws-kms-crypt/</guid>
+      <description>aws-kms-crypt is a cross-language utility for securing the confidentiality of secrets and sensitive data in AWS. The key features of this tool are:
+ Simple APIs for encrypting and decrypting sensitive data Interoperable implementations for multiple languages (Bash, Node and Python) Envelope Encryption with AES-128-CBC and KMS generated data keys. That is, all secret data is encrypted locally and never sent to Amazon in plain text.  Installation  Node.</description>
+    </item>
+    
+  </channel>
+</rss>

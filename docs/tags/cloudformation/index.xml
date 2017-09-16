@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloudformation on Sami Jaktholm</title>
+    <link>https://sjakthol.github.io/tags/cloudformation/</link>
+    <description>Recent content in Cloudformation on Sami Jaktholm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sjakthol.github.io/tags/cloudformation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>aws-account-infra</title>
+      <link>https://sjakthol.github.io/projects/aws-account-infra/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/projects/aws-account-infra/</guid>
+      <description>This projects contains an opinionated set of CloudFormation templates for an AWS infrastructure setup that contains the following components:
+ CloudTrail audit log saved to Amazon S3 for long-term storage. IAM roles, policies, groups and users with MFA required for all access to AWS resources. KMS key for encrypting sensitive data. VPC with route tables that provide varying level of access to / from the public internet over IPv4 and IPv6.</description>
+    </item>
+    
+    <item>
+      <title>cfn-monitor</title>
+      <link>https://sjakthol.github.io/projects/cfn-monitor/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/projects/cfn-monitor/</guid>
+      <description> cfn-monitor is a command line utility for monitoring the progress of CloudFormation stack operations. The tool parses the output of the AWS CLI create-stack and update-stack commands, listens for the stack events of the affected stacks and prints them out to the terminal as they occur.
+This utility requires Node.js and can be installed with npm:
+npm install -g cfn-monitor  Links  Package in NPM: https://www.npmjs.com/package/cfn-monitor  </description>
+    </item>
+    
+  </channel>
+</rss>

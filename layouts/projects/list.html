@@ -1,0 +1,26 @@
+{{ define "main" }}
+<main class="section-index">
+  <h1>{{ .Title }}</h1>
+  <h2 class="subheading">{{ .Content }}</h2>
+  <hr />
+  {{ range .Data.Pages.GroupByParam "ProjectGroup" }}
+  <div>
+    <h3>{{ .Key }}</h3>
+    <div class="project-card-holder">
+    {{ range .Pages }}
+      <div class="project-card">
+        <h4 class="project-card-title">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <a class="project-card-repo" target="_black" rel="noopener" href="{{ .Params.Repository }}" title="View in Github"><i class="fa fa-github"></i></a>
+        </h4>
+        <div class="project-card-summary"> {{ .Params.Summary | markdownify }}</div>
+        <div class="project-card-tags">
+          {{ range .Params.tags }} <kbd class="item-tag">{{ . }}</kbd> {{ end }}
+        </div>
+      </div>
+    {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</main>
+{{end}}

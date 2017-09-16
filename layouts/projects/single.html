@@ -1,0 +1,15 @@
+{{ define "main" }}
+<main class="section-item">
+  <h1>{{ .Title }}</h1>
+  <p>
+    <i>{{ .Params.Summary | markdownify }}</i>
+  </p>
+  <hr />
+  <div class="text-justify">
+    {{ .Content }}
+  </div>
+
+  <a class="gh-project-link" href="{{ .Params.Repository }}"><i class="fa fa-github">&nbsp;</i>View in Github</a>
+
+</main>
+{{ end }}

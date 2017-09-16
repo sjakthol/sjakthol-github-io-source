@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Sami Jaktholm</title>
+    <link>https://sjakthol.github.io/tags/</link>
+    <description>Recent content in Tags on Sami Jaktholm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sjakthol.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android</title>
+      <link>https://sjakthol.github.io/tags/android/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aws</title>
+      <link>https://sjakthol.github.io/tags/aws/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://sjakthol.github.io/tags/bash/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloudformation</title>
+      <link>https://sjakthol.github.io/tags/cloudformation/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/tags/cloudformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://sjakthol.github.io/tags/java/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kms</title>
+      <link>https://sjakthol.github.io/tags/kms/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/tags/kms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nodejs</title>
+      <link>https://sjakthol.github.io/tags/nodejs/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://sjakthol.github.io/tags/python/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell</title>
+      <link>https://sjakthol.github.io/tags/shell/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sjakthol.github.io/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
