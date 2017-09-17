@@ -15,8 +15,8 @@ Tags:
 Date: 2017-09-10
 ---
 
-aws-kms-crypt is a cross-language utility for securing the confidentiality of
-secrets and sensitive data in AWS. The key features of this tool are:
+`aws-kms-crypt` is a cross-language utility for managing application secrets
+within AWS using the KMS service. The key features of this tool are:
 
 * Simple APIs for encrypting and decrypting sensitive data
 * Interoperable implementations for multiple languages (Bash, Node and Python)
