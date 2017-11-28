@@ -17,10 +17,7 @@ body {
 }
 
 main {
-    margin: auto;
-    padding: 25px;
     max-width: 750px;
-    min-width: 450px;
 }
 
 main h1 {
