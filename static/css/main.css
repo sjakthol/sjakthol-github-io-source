@@ -18,6 +18,8 @@ body {
 
 main {
     max-width: 750px;
+    flex: 1 1 auto;
+    padding-bottom: 3em;
 }
 
 main h1 {

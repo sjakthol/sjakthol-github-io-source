@@ -28,3 +28,8 @@ title = "Sami Jaktholm"
     url = "https://github.com/sjakthol/"
     name = "github"
     weight = 2
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/sjakthol"
+    name = "linkedin"
+    weight = 3
