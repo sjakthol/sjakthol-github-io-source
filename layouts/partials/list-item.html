@@ -1,6 +1,6 @@
 <div class="item">
   {{ partial "post-header" . }}
-  <p>{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Summary }}{{ end }}</p>
+  <p>{{ if .Params.summary }}{{ .Params.Summary | markdownify }}{{ else }}{{ .Summary }}{{ end }}</p>
   {{ if or .Params.summary .Truncated }}
     <div>
       <a href="{{ .RelPermalink }}">Read More…</a>

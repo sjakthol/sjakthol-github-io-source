@@ -1,9 +1,7 @@
 {{ define "main" }}
 <main class="section-item">
   <h1>{{ .Title }}</h1>
-  <p>
-    <i>{{ .Params.Summary | markdownify }}</i>
-  </p>
+  <i>{{ .Params.Summary | markdownify }}</i>
   <hr />
   <div class="text-justify">
     {{ .Content }}
