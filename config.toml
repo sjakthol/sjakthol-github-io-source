@@ -2,6 +2,7 @@ baseURL = "https://sjakthol.github.io/"
 languageCode = "en-us"
 title = "Sami Jaktholm"
 Paginate = 4
+googleAnalytics = "UA-117555853-1"
 
 [params]
     author = "Sami Jaktholm"
