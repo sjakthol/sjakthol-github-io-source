@@ -1,13 +1,14 @@
 baseURL = "https://sjakthol.github.io/"
 languageCode = "en-us"
 title = "Sami Jaktholm"
+Paginate = 4
 
 [params]
     author = "Sami Jaktholm"
     description = "Data Engineer at F-Secure. Student at Aalto University"
     accent = "blue"
     backgroundColor = "white"
-    font = "Quicksand"
+    font = "Nunito"
 
 [[menu.main]]
     url = "/"

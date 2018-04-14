@@ -1,32 +1,18 @@
 {{ define "main" }}
 <main class="section-index">
-  <h1>{{ .Title }}</h1>
+  <h1>{{ .Title | upper }}</h1>
   <h2>{{ .Content }}</h2>
   <hr />
   {{ if .Pages }}
-    {{ range (.Paginator 4).Pages }}
+    {{ range .Paginator.Pages }}
       {{ partial "list-item" . }}
     {{ end }}
   {{ else }}
     {{ partial "empty-list" . }}
   {{ end }}
 
+  {{ template "_internal/pagination.html" . }}
+
 </main>
 
-{{ if or .Paginator.HasPrev .Paginator.HasNext }}
-
-  <div class="pages">
-    {{ if .Paginator.HasPrev }}
-      <a class="icon pages-icon" href="{{ .Paginator.Prev.URL }}" rel="prev">
-          <i class="fa fa-arrow-left"></i> <span>Newer Posts</span>
-      </a>
-    {{ end }}
-    {{ if .Paginator.HasNext }}
-      <a class="icon pages-icon" href="{{ .Paginator.Next.URL }}" rel="next">
-          <span>Older Posts</span> <i class="fa fa-arrow-right"></i>
-      </a>
-    {{ end }}
-  </div>
-
-{{ end }}
 {{ end }}

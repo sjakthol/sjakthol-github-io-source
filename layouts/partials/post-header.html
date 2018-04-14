@@ -1,2 +1,4 @@
   <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-  <h6>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h6>
+  {{ if .Params.ShowDate }}
+    <h6>{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h6>
+  {{ end }}
