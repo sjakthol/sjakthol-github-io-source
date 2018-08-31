@@ -8,7 +8,7 @@ Paginate = 4
     description = "Data Engineer at F-Secure. Student at Aalto University"
     accent = "blue"
     backgroundColor = "white"
-    font = "Nunito"
+    font = "Source Sans Pro"
 
 [[menu.main]]
     url = "/"

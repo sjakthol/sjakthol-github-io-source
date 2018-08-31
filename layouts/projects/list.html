@@ -7,7 +7,7 @@
   <div>
     <h3>{{ .Key }}</h3>
     <div class="project-card-holder">
-    {{ range .Pages }}
+    {{ range sort .Pages "Title" }}
       <div class="project-card">
         <h4 class="project-card-title">
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
