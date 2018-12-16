@@ -1,11 +1,22 @@
 {{ define "main" }}
 <main class="section-index">
   <h1>{{ .Title }}</h1>
-  <h2 class="subheading">{{ .Content }}</h2>
+  <h4>{{ .Content }}</h4>
+  <p>
+    {{ range $i, $e := .Data.Pages.GroupByParam "ProjectGroup" }}
+      {{ if $i }}
+        <span class="text-muted">&nbsp;&bullet;&nbsp;</span>
+      {{ end }}
+        <a href="#{{.Key}}">{{ .Key }}</a>
+      {{ end }}
+    {{ range .Data.Pages.GroupByParam "ProjectGroup" }}
+
+    {{ end }}
+  </p>
   <hr />
   {{ range .Data.Pages.GroupByParam "ProjectGroup" }}
-  <div>
-    <h3>{{ .Key }}</h3>
+  <div class="project-card-group">
+    <h2><a name="{{.Key}}"></a>{{ .Key }}</h2>
     <div class="project-card-holder">
     {{ range sort .Pages "Title" }}
       <div class="project-card">

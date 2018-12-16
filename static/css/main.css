@@ -4,65 +4,30 @@ html, body {
 
 html body {
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
-    font-size: 15px
-}
-
-body {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    line-height: 1.5;
-    padding-top: 55px;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #000000;
     text-align: center;
 }
 
 main {
     max-width: 750px;
-    flex: 1 1 auto;
-    padding-bottom: 3em;
-    padding-left: 1em;
-    padding-right: 1em;
+    margin: auto;
+    padding: 20px 0;
 }
 
-main h1 {
-    color: #212121;
-    font-size: 7vh;
-}
-
-.subheading {
-    font-size: 3vh;
-    line-height: 1.5;
-}
-
-
-/*home page*/
-
-.frontpage > .action-buttons {
-    margin: 25px auto;
+/* Make sure images do not overflow the main content */
+img {
+    max-width: 100%
 }
 
 /* Section Index Pages */
-.section-index {
-    flex: 1 0 auto;
-}
-
 .section-item {
     flex: 1 0 auto;
 }
 
-.action-buttons > .btn {
-    background-color: white;
-    border-color: red;
-    color: red;
-}
-
-.action-buttons > .btn:hover {
-    background-color: red;
-    color: white !important;
-}
-
 a:link, a:visited, .pagination > li > a {
-    color: red;
+    color: blue;
 }
 
 a.icon:hover {
@@ -74,7 +39,7 @@ a:hover {
 
 }
 
-/*paginator at bottom of list view*/
+/* paginator at bottom of list view */
 
 .pages {
     padding: 15px 0;
@@ -82,12 +47,6 @@ a:hover {
 
 .pages-icon {
     padding: 0 15px;
-}
-
-/*list item for posts and projects*/
-
-.item {
-    padding: 10px 0;
 }
 
 /*navigation bar icons*/
@@ -98,21 +57,19 @@ a:hover {
 }
 
 /* project cards */
+
+.project-card-group {
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
 .project-card-holder {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
     text-align: start;
 }
 
 .project-card {
-    border-radius: 5px;
-    border: 1px solid silver;
     flex: 1 1 auto;
-    margin: 1em;
     padding: 1em;
-    width: 300px;
 }
 
 .project-card-title {
@@ -123,20 +80,7 @@ a.project-card-repo {
     float: right;
 }
 
-.project-card-tags {
-    margin-top: 1em
-}
-
-.gh-project-link {
-    font-size: 120%;
-}
-
 /* Don't make FA icons inside links to be red */
 a > .fa {
     color: black;
-}
-
-/* Make sure images do not overflow the main content */
-img {
-    max-width: 100%
 }
