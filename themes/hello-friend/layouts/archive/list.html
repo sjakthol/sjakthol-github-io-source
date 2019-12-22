@@ -5,7 +5,7 @@
 
 <div class="archive">
   <h1>{{ .Title }}</h1>
-  {{ range .Site.RegularPages.GroupByPublishDate "2006" }}
+  {{ range (where .Site.RegularPages "Type" $contentTypeName).GroupByPublishDate "2006" }}
   {{ if ne .Key "0001" }}
   <div class="archive__group-year">
     <h2 class="archive__group-year-header">{{ replace .Key "0001" "" }}</h2>
