@@ -20,4 +20,6 @@ OpenVPN servers from the command line. It has the following features:
 The application is written in python can and be used from most UNIX
 systems that have Python and OpenVPN available.
 
+{{< rawhtml >}}
 <a target="_blank" rel="noopener" href="https://github.com/sjakthol/vpngate-client">View in Github</a>
+{{< /rawhtml >}}

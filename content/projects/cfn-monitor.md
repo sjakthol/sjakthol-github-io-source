@@ -28,4 +28,6 @@ npm install -g cfn-monitor
 
 * Package in NPM: https://www.npmjs.com/package/cfn-monitor
 
+{{< rawhtml >}}
 <a target="_blank" rel="noopener" href="https://github.com/sjakthol/cfn-monitor">View in Github</a>
+{{< /rawhtml >}}

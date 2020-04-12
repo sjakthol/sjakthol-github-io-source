@@ -21,4 +21,6 @@ AWS infrastructure setup that contains the following components:
 * VPC with route tables that provide varying level of access to / from the
   public internet.
 
+{{< rawhtml >}}
 <a target="_blank" rel="noopener" href="https://github.com/sjakthol/aws-account-infra">View in Github</a>
+{{< /rawhtml >}}

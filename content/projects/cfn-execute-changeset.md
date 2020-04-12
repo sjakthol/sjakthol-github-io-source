@@ -25,4 +25,6 @@ npm install -g cfn-execute-change-set
 
 * Package in NPM: https://www.npmjs.com/package/cfn-execute-change-set
 
+{{< rawhtml >}}
 <a target="_blank" rel="noopener" href="https://github.com/sjakthol/cfn-execute-change-set">View in Github</a>
+{{< /rawhtml >}}

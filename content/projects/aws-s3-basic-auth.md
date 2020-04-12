@@ -26,4 +26,6 @@ contents of S3.
 The entire setup can be deployed through CloudFormation to protect access
 to any existing S3 bucket.
 
+{{< rawhtml >}}
 <a target="_blank" rel="noopener" href="https://github.com/sjakthol/aws-s3-basic-auth">View in Github</a>
+{{< /rawhtml >}}

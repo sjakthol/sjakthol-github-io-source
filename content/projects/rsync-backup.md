@@ -15,4 +15,6 @@ This script can be used to backup local directories over SSH to
 a remote machine. It uses rsync's `--link-dest` feature to avoid
 storing copies of files that have not changed between two snapshots.
 
+{{< rawhtml >}}
 <a target="_blank" rel="noopener" href="https://github.com/sjakthol/rsync-backup">View in Github</a>
+{{< /rawhtml >}}

@@ -27,5 +27,6 @@ The data is provided by [HSL](https://www.hsl.fi/en) through the
   <img src="/images/stoptimes-demo.gif" alt="Demo GIF" />
 </p>
 
+{{< rawhtml >}}
 <a target="_blank" rel="noopener" href="https://github.com/sjakthol/digitransit-stoptimes-android">View in Github</a>
-
+{{< /rawhtml >}}

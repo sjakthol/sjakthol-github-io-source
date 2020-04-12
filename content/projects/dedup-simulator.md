@@ -41,4 +41,6 @@ process:
   at https://eprint.iacr.org/2015/455.pdf
 * Demo Implementation: https://git.ssg.aalto.fi/close/cloud-dedup
 
+{{< rawhtml >}}
 <a target="_blank" rel="noopener" href="https://github.com/sjakthol/dedup-simulator">View in Github</a>
+{{< /rawhtml >}}

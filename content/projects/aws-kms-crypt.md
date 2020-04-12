@@ -33,4 +33,6 @@ within AWS using the KMS service. The key features of this tool are:
 * Shell script in Github: https://github.com/sjakthol/aws-kms-crypt/blob/master/shell/aws-kms-crypt.sh
 * Rust package in crates.io: https://crates.io/crates/aws_kms_crypt
 
+{{< rawhtml >}}
 <a target="_blank" rel="noopener" href="https://github.com/sjakthol/aws-kms-crypt">View in Github</a>
+{{< /rawhtml >}}
