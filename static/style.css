@@ -1,11 +1,38 @@
-.container {
-    min-height: 100vh;
-}
-
 .footer {
     padding-bottom: 10px;
 }
 
 .footer .copyright {
     font-size: 80%;
+}
+
+.menu {
+    border-right: none;
+}
+
+.archive-post {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 5px;
+}
+
+.archive-post-date {
+    padding-right: 1rem;
+    opacity: .5;
+}
+
+.archive-post-title {
+    width: 100%;
+}
+
+:root {
+    --light-color: #444;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
 }
