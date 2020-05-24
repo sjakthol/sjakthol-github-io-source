@@ -36,3 +36,12 @@ a {
 a:hover {
     color: #000;
 }
+
+.post-content {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.post-content a {
+    color: blue
+}
